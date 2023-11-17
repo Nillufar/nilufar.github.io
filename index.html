@@ -2,52 +2,61 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nilufar Kurbonova</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Nilufar Kurbonova - Portfolio</title>
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="media.css">
+
+
 </head>
 
 <body>
-    <div class="hero">
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="about.html">ABOUT ME</a></li>
-                    <li><a href="education.html">EDUCATION</a></li>
-                    <li><a href="awards.html">AWARDS</a></li>
-                    <li><a href="experience.html">WORK EXPERIENCE</a></li>
-                </ul>
-                <div class="info">
-                    <h3>Hi, I am Nilufar Kurbonova</h3>
-                    <h1> Web Designer </h1>
-
-                </div>
-
-                <div class="icons">
-                    <a href="https://www.facebook.com/profile.php?id=100085251037393" target="_blank" rel="noopener noreferrer">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a>
-                    <a href="#">
-                        <a href="https://instagram.com/without.liily?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
-                            <ion-icon name="logo-instagram"></ion-icon>
-                            <!-- Fixed typo in the icon name -->
-                        </a>
-                        <a href="https://www.linkedin.com/in/nilufar-kurbonova-393959272/" target="_blank" rel="noopener noreferrer">
-                            <ion-icon name="logo-linkedin"></ion-icon>
-                        </a>
-                        <!-- Add your GitHub link here -->
-                        <a href="https://github.com/Nillufar" target="_blank" rel="noopener noreferrer">
-                            <ion-icon name="logo-github"></ion-icon>
-                </div>
-
-
-
-            </nav>
+    <nav id="desktop">
+        <div class="logo"> Nilufar Kurbonova</div>
+        <div>
+            <ul class="links">
+                <li><a href="#about"> About me</a></li>
+                <li><a href="#education"> Education</a></li>
+                <li><a href="#Awards"> Awards</a></li>
+                <li><a href="#experience"> Work experience</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
         </div>
+    </nav>
+    <nav id="hamburger">
+        <div class="logo">Nilufar
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()"> About me</a></li>
+                    <li><a href="#education" onclick="toggleMenu()"> Education</a></li>
+                    <li><a href="#Awards" onclick="toggleMenu()"> Awards</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()"> Work experience</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()"> Contact</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id="Profile ">
+        <div class="profile_pic">
+
+            <img src="/assets/mine/new.jpg" alt="my picture">
+        </div>
+        <div class="section-text"></div>
+    </section>
+
+
+
+
+
+    <script src="script.js"></script>
 </body>
 
-</html>
+<html>
