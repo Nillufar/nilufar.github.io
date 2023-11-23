@@ -74,3 +74,38 @@ a:hover {
     width: 30px;
     cursor: pointer;
 }
+
+.fab fa-linkedin fa-beat {
+    font-size: 50px;
+}
+
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+.section-text {
+    display: flex;
+    margin-top: -20%;
+    margin-left: auto;
+    margin-right: 30%;
+    font-size: 50PX;
+}
+
+.btn {
+    margin-left: auto;
+    font-size: 50px;
+    /* Add this line to move it to the right */
+}
+
+.profile_pic img {
+    width: 550px;
+    /* Adjust the width to your preference */
+    height: auto;
+    /* Maintain the aspect ratio */
+    border-radius: 50%;
+    /* Optional: add border-radius for a circular shape */
+}
