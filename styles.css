@@ -15,7 +15,7 @@ html {
 }
 
 p {
-    color: rgb(85, 85, 85);
+    color: rgb(255, 255, 255);
 }
 
 a,
@@ -54,7 +54,10 @@ a:hover {
 }
 
 .logo {
+    color: rgb(50, 96, 136);
     font-size: 2rem;
+    margin-left: 7%;
+    margin-top: 10%;
 }
 
 #hamburger {
@@ -102,10 +105,9 @@ section {
 }
 
 .profile_pic img {
-    width: 550px;
+    width: 470px;
     /* Adjust the width to your preference */
     height: auto;
-    /* Maintain the aspect ratio */
-    border-radius: 50%;
-    /* Optional: add border-radius for a circular shape */
+    margin-left: 69%;
+    margin-top: -24%;
 }

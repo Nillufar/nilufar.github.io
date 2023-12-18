@@ -15,11 +15,12 @@ body {
     padding: 0;
 }
 
-img {
+
+/* img {
     max-width: 100%;
     height: auto;
-    /* Maintain aspect ratio */
-}
+    Maintain aspect ratio 
+}*/
 
 .container {
     position: absolute;
