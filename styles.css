@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: aliceblue;
+    background-color: antiquewhite;
 }
 
 html {
@@ -14,12 +14,16 @@ html {
 }
 
 p {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 a,
 btn {
     transition: all 300ms ease;
+}
+
+.h1 {
+    font-size: 2rem;
 }
 
 
@@ -73,6 +77,10 @@ a:hover {
     display: none;
 }
 
+.hamburger-nav {
+    display: none;
+}
+
 .hamburger-menu {
     display: inline-block;
     position: relative;
@@ -89,6 +97,20 @@ a:hover {
 
 .hamburger-icon span {
     width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+.menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: black;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
 }
 
 .fab fa-linkedin fa-beat {
@@ -111,17 +133,68 @@ section {
     font-size: 50PX;
 }
 
+.section-text p {
+    font-weight: 600;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
 .btn {
-    margin-left: auto;
-    font-size: 50px;
-    margin-top: 30%;
-    /* Add this line to move it to the right */
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 5rem;
+}
+
+.btn-color,
+.btn-color {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color:hover,
+.btn-color1:hover {
+    cursor: pointer;
+}
+
+.btn-color,
+.btn-color1:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-color:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+}
+
+.btn-color1:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-color:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+    gap: 1rem;
 }
 
 .profile_pic img {
     width: 470px;
-    /* Adjust the width to your preference */
     height: auto;
     margin-left: 69%;
     margin-top: -24%;
+}
+
+.section-pic img {
+    width: 400px;
+}
+
+.title {
+    margin-left: 50%;
 }

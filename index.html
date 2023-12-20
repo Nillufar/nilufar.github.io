@@ -8,7 +8,6 @@
     <title>Nilufar Kurbonova</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/dab23c2303.js" crossorigin="anonymous"></script>
-    <title>background</title>
 </head>
 
 <body>
@@ -19,10 +18,10 @@
                 <li><a href="#education"> Education</a></li>
                 <li><a href="#Awards"> Awards</a></li>
                 <li><a href="#experience"> Work experience</a></li>
-                <li><a href="#contact"> Contact</a></li>
+
             </ul>
         </div>
-    </nav>
+    </nav id="hamburger-nav">
     <div class="logo">
         <h1>Nilufar Kurbonova</h1>
         <h2>Software ehausist</h2>
@@ -40,18 +39,17 @@
                 <li><a href="#education" onclick="toggleMenu()"> Education</a></li>
                 <li><a href="#Awards" onclick="toggleMenu()"> Awards</a></li>
                 <li><a href="#experience" onclick="toggleMenu()"> Work experience</a></li>
-                <li><a href="#contact" onclick="toggleMenu()"> Contact</a></li>
+
             </div>
         </div>
         </div>
     </nav>
     <section id="Profile ">
-        <!--PROFILE PICTURE-->
         <div class="section-text">
-            <class="btn">
-                <button class="btn-color" onclick="window.open('./assets/mine/cv.pdf')">Download CV</button>
-                <button class="btn-color1" onclick="window.location.href='./#contacts'">Contact info</button>
-        </div>
+            <div class="btn-container">
+                <button class="btn btn-color" onclick="window.open('./assets/mine/cv.pdf')">Download CV</button>
+                <button class="btn btn-color1" onclick="window.location.href='./#contacts'">Contact info</button>
+            </div>
     </section>
     <!-- <div class="socials">
         <a href="https://www.linkedin.com/in/nilufar-kurbonova/" target="_blank">
@@ -60,13 +58,26 @@
             <i class="fa-brands fa-github fa-beat"></i></a>
 
     </div>-->
-
-
-    <section id="about"> </section>
+    <section id="about">
+        <p class="text_p1">Get to know more</p>
+        <h1 class="title">About me </h1>
+        <div class="section-container">
+            <div class="section-pic">
+                <img src="./assets/mine/nelly.jpg" alt="profile pic">
+            </div>
+            <div class="about details"></div>
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="" alt="">
+                    <h3>Experience</h3>
+                    <p>2 years <br>Frontend Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <script src="script.js"></script>
-    </style>
 </body>
 
 <html>
