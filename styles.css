@@ -33,14 +33,6 @@ btn {
     text-align: center;
 }
 
-.edu {
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    font-size: 2.8rem;
-    text-align: center;
-    margin-top: 40%;
-}
-
 
 /* Desktop nav */
 
@@ -223,14 +215,31 @@ section {
     margin-top: -33%;
 }
 
-.scho-pic img {
-    width: 400px;
-    margin-top: 12%;
-    margin-left: -10%;
+.school img {
+    width: 35%;
+    margin-top: 8%;
+    margin-left: -1%;
 }
 
 .univ img {
     float: right;
-    width: 45%;
-    margin-top: -46%;
+    width: 35%;
+    margin-top: -35%;
+}
+
+.education {
+    margin-top: 20%;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.awards {
+    margin-top: 20%;
+}
+
+.p {
+    margin-top: -20%;
 }
