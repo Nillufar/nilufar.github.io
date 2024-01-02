@@ -1,0 +1,14 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: whitesmoke;
+        }
+        
+        .section-pic img {
+            width: 400px;
+            border-radius: 15%;
+        }

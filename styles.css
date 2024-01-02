@@ -6,12 +6,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: antiquewhite;
-    background-image: url(./assets/mine/back.jpg);
+    background-color: whitesmoke;
+    /* background-image: url(./assets/mine/back.jpg);*/
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+.name {
+    font-size: 2.5rem;
+    text-decoration-line: underline;
 }
 
 .text_p1 {
@@ -242,4 +247,15 @@ section {
 
 .p {
     margin-top: -20%;
+}
+
+.vol img {
+    width: 45%;
+    margin-top: 10%;
+}
+
+.c img {
+    width: 48%;
+    margin-top: -35%;
+    float: right;
 }
