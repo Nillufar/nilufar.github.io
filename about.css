@@ -10,5 +10,21 @@
         
         .section-pic img {
             width: 400px;
-            border-radius: 15%;
+            border-radius: 40%;
+            margin-left: 50px;
+            margin-top: 50px;
         }
+        
+        .name {
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        nav {
+            justify-content: space-around;
+            align-items: center;
+            height: 8vh;
+            background-color: green;
+        }
+        
+        h3 {}

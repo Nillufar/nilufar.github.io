@@ -7,7 +7,10 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: whitesmoke;
-    /* background-image: url(./assets/mine/back.jpg);*/
+    background-image: url(assets/mine/green\ neew.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 html {
@@ -15,8 +18,10 @@ html {
 }
 
 .name {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     text-decoration-line: underline;
+    margin-right: -10px;
+    text-align: right;
 }
 
 .text_p1 {
@@ -49,26 +54,32 @@ nav,
 nav {
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 10vh;
 }
 
 .links {
     gap: 2rem;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 0.5rem;
+}
+
+.links li a {
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 10px;
 }
 
 a {
     color: black;
-    text-decoration: none;
-    text-decoration-color: white;
+    text-decoration: rgb(17, 234, 53);
+    font-size: 1px;
 }
 
 a:hover {
-    color: rgb(4, 4, 4);
+    color: rgb(55, 218, 30);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(0, 0, 0);
+    text-decoration-color: rgb(55, 218, 30);
 }
 
 .logo {
@@ -129,14 +140,6 @@ a:hover {
     font-size: 50px;
 }
 
-section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
-}
-
 .section-text {
     display: flex;
     margin-top: 10%;
@@ -153,19 +156,23 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: -100px;
+    margin-left: -170px;
+    font-size: 30px;
 }
 
 .btn {
-    font-weight: 600;
+    font-weight: 300;
     transition: all 300ms ease;
-    padding: 1rem;
-    width: 8rem;
-    border-radius: 5rem;
+    padding: 0.1rem;
+    width: 6.7rem;
+    border-radius: 1rem;
+    height: 2.9rem;
 }
 
 .btn-color,
 .btn-color {
-    border: rgb(53, 53, 53) 0.1rem solid;
+    border: rgb(54, 137, 97) 0.1rem solid;
 }
 
 .btn-color:hover,
@@ -175,12 +182,12 @@ section {
 
 .btn-color,
 .btn-color1:hover {
-    background: rgb(53, 53, 53);
+    background: rgb(93, 173, 81);
     color: white;
 }
 
 .btn-color:hover {
-    background: rgb(53, 53, 53);
+    background: rgb(167, 223, 175);
     color: white;
 }
 
@@ -189,73 +196,28 @@ section {
 }
 
 .btn-color:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: rgb(248, 249, 248) 0.1rem solid;
 }
 
 .btn-container {
     gap: 1rem;
 }
 
-.profile_pic img {
-    width: 470px;
-    height: auto;
-    margin-left: 50%;
-    margin-top: -24%;
+a {
+    font-size: 40px;
+    margin-right: -10px;
 }
 
-.section-pic img {
-    margin-top: 5%;
-    width: 400px;
-    border-radius: 15%;
+i {
+    margin-left: 10px;
 }
 
-.text_p2 {
-    font-size: 2rem;
-    margin-left: 35%;
+.icons {
+    margin-left: 100px;
+    float: left;
+    margin-top: 330px;
 }
 
-.h3 {
-    font-size: 2rem;
-    margin-left: 50%;
-    margin-top: -33%;
-}
-
-.school img {
-    width: 35%;
-    margin-top: 8%;
-    margin-left: -1%;
-}
-
-.univ img {
-    float: right;
-    width: 35%;
-    margin-top: -35%;
-}
-
-.education {
-    margin-top: 20%;
-    text-decoration: underline;
-    text-underline-offset: 1rem;
-    font-size: 2.8rem;
-    text-align: center;
-    margin-top: 30%;
-}
-
-.awards {
-    margin-top: 20%;
-}
-
-.p {
-    margin-top: -20%;
-}
-
-.vol img {
-    width: 45%;
-    margin-top: 10%;
-}
-
-.c img {
-    width: 48%;
-    margin-top: -35%;
-    float: right;
+p {
+    color: rgb(79, 225, 104);
 }
