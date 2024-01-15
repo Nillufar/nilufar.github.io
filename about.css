@@ -10,21 +10,37 @@
         
         .section-pic img {
             width: 400px;
-            border-radius: 40%;
+            border-radius: 15%;
             margin-left: 50px;
             margin-top: 50px;
         }
         
         .name {
             text-align: center;
-            font-size: 30px;
         }
         
         nav {
             justify-content: space-around;
             align-items: center;
-            height: 8vh;
-            background-color: green;
+            height: 8.8vh;
+            background-color: rgb(25, 175, 50);
         }
         
-        h3 {}
+        .details-container {
+            width: 1000px;
+            height: fit-content;
+            text-align: center;
+            font-size: 1.8rem;
+            margin-left: 480px;
+            margin-top: -500px;
+        }
+        
+        .text_p1 {
+            text-align: justify;
+            line-height: 37px;
+            letter-spacing: 0.9px;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
